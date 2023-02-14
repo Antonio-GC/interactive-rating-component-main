@@ -1,2 +1,21 @@
+* {
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: var(62.5%); }
+
+img {
+  display: block;
+  max-width: 100%; }
+
+a {
+  text-decoration: none; }
+
+button {
+  border: none;
+  outline: none; }
+
 body {
-  color: white; }
+  background-color: var(#252d37);
+  font-family: 'Overpass', sans-serif; }

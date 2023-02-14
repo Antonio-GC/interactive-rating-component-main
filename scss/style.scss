@@ -1,7 +1,32 @@
+@import "button";
 @import "config";
 
+* {
+margin: 0;
+box-sizing: border-box;
+}
+
+html {
+    font-size: var($font-size);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+text-decoration: none;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
 body {
-color: $White;
+background-color: var($Dark-Blue);
+font-family: 'Overpass', sans-serif;
 }
 
 
